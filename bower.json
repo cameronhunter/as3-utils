@@ -1,0 +1,13 @@
+{
+  "name": "as3-utils",
+  "description": "A library of actionscript 3 utilities",
+  "version": "0.0.0",
+  "authors": [
+    "Cameron Hunter <hello@cameronhunter.co.uk>"
+  ],
+  "ignore": [
+    ".gitignore",
+    "Gruntfile.js",
+    "package.json"
+  ]
+}

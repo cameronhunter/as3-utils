@@ -1,0 +1,17 @@
+{
+  "name": "as3-utils",
+  "description": "A library of actionscript 3 utilities",
+  "version": "0.0.0",
+  "authors": [
+    "Cameron Hunter <hello@cameronhunter.co.uk>"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-bump": "latest",
+    "matchdep": "latest"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
