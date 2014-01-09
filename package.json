@@ -9,6 +9,8 @@
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-bump": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-exec": "latest",
     "matchdep": "latest"
   },
   "engines": {

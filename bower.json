@@ -5,6 +5,9 @@
   "authors": [
     "Cameron Hunter <hello@cameronhunter.co.uk>"
   ],
+  "dependencies": {
+    "asunit": "~4.2.3"
+  },
   "ignore": [
     ".gitignore",
     "Gruntfile.js",
