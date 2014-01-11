@@ -7,12 +7,18 @@ package uk.co.cameronhunter.as3.utils {
 
   public class UriTest extends TestCase {
 
-    public function UriTest(testMethod: String) {
+    public function UriTest(testMethod: String = null) {
       super(testMethod);
     }
 
     public function test_isSafe(): void {
       assertEquals("Safe URL", Uri.isSafe("https://vine.co/foo.jpg"), "https://vine.co/foo.jpg");
+    }
+	
+	public function test_isSafe_null(): void {
+      assertThrows(Error, function(): void {
+        Uri.isSafe(null);
+      });
     }
 
     public function test_isSafe_protects_against_null_character_attack(): void {
